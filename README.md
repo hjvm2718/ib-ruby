@@ -11,10 +11,11 @@ gem 'active_model_serializers'
 
 Sic(!). One version with hyphen and the other one with underscore.
 
-Afterwards, in your Gemfile, you may include the ib-ruby in the following way:
+Afterwards, in your Gemfile, you may include ib-ruby in the following way:
 
+```
 gem 'ib-ruby', github: 'hjvm2718/ib-ruby'
-
+```
 
 Ruby Implementation of the Interactive Brokers Trader Workstation (TWS) API v.965-967.
 ## Gateway-Branch, Environment: Ruby 2.2, ActiveModel,  Rspec3/Guard-Testsuite
