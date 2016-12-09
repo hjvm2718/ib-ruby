@@ -17,7 +17,7 @@ Afterwards, in your Gemfile, you may include ib-ruby in the following way:
 ```
 gem 'ib-ruby', github: 'hjvm2718/ib-ruby'
 ```
-## End of note for this fork
+#### End of note for this fork
 
 
 Ruby Implementation of the Interactive Brokers Trader Workstation (TWS) API v.965-967.
