@@ -24,6 +24,8 @@ Gem::Specification.new do |gem|
 
   # Dependencies
   gem.add_dependency 'bundler', '~> 1.7'
+  gem.add_dependency 'activemodel-serializers-xml'
+  gem.add_dependency 'active_model_serializers'
   gem.add_dependency 'activesupport', '>= 4.2'
   #gem.add_dependency 'activerecord-jdbcsqlite3-adapter', '>= 1.2.2'
   #gem.add_dependency 'jdbc-sqlite3', '>= 3.7.2'
