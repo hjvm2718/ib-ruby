@@ -1,8 +1,9 @@
 # ib-ruby
 
-Note for this fork: This is my modest attempt at making this work within a Rails 5 context. Use at your own risk. And, if in doubt, use the original version.
+## Note for this fork
+This is my modest attempt at making this work within a Rails 5 context. Use at your own risk. And, if in doubt, use the original version.
 
-In Rails 5 there are some issues with activemodel serializers being moved to a seperate gem. Therefore, what works for me is to add:
+In Rails 5 there are some issues with activemodel serializers being moved to a seperate gem. Therefore, what works for me is to add the following in your Gemfile:
 
 ```
 gem 'activemodel-serializers-xml'
@@ -16,6 +17,8 @@ Afterwards, in your Gemfile, you may include ib-ruby in the following way:
 ```
 gem 'ib-ruby', github: 'hjvm2718/ib-ruby'
 ```
+## End of note for this fork
+
 
 Ruby Implementation of the Interactive Brokers Trader Workstation (TWS) API v.965-967.
 ## Gateway-Branch, Environment: Ruby 2.2, ActiveModel,  Rspec3/Guard-Testsuite
