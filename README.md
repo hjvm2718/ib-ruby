@@ -4,8 +4,10 @@ Note for this fork: This is my modest attempt at making this work within a Rails
 
 In Rails 5 there are some issues with activemodel serializers being moved to a seperate gem. Therefore, what works for me is to add:
 
+```
 gem 'activemodel-serializers-xml'
 gem 'active_model_serializers'
+```
 
 Sic(!). One version with hyphen and the other one with underscore.
 
